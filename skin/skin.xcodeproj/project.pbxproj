@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86347E0A1B305EBF00076193 /* JLCircleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 86347E091B305EBF00076193 /* JLCircleBtn.m */; };
 		86C247781B1C5DCF00BE1BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C247771B1C5DCF00BE1BB6 /* main.m */; };
 		86C2477B1B1C5DD000BE1BB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C2477A1B1C5DCF00BE1BB6 /* AppDelegate.m */; };
 		86C2477E1B1C5DD000BE1BB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C2477D1B1C5DD000BE1BB6 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86347E081B305EBF00076193 /* JLCircleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCircleBtn.h; sourceTree = "<group>"; };
+		86347E091B305EBF00076193 /* JLCircleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCircleBtn.m; sourceTree = "<group>"; };
 		86C247721B1C5DCF00BE1BB6 /* skin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C247761B1C5DCF00BE1BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86C247771B1C5DCF00BE1BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		86C247751B1C5DCF00BE1BB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86347E081B305EBF00076193 /* JLCircleBtn.h */,
+				86347E091B305EBF00076193 /* JLCircleBtn.m */,
 				86C2479B1B1C5DF300BE1BB6 /* JLSkinConfig.h */,
 				86C2479C1B1C5DF300BE1BB6 /* JLSkinManager.h */,
 				86C2479D1B1C5DF300BE1BB6 /* JLSkinManager.m */,
@@ -231,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86347E0A1B305EBF00076193 /* JLCircleBtn.m in Sources */,
 				86C247A11B1C5DF300BE1BB6 /* UIColor+HexString.m in Sources */,
 				86C247A01B1C5DF300BE1BB6 /* JLSkinManager.m in Sources */,
 				86C2477E1B1C5DD000BE1BB6 /* ViewController.m in Sources */,
@@ -434,6 +440,7 @@
 				86C247971B1C5DD000BE1BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C247981B1C5DD000BE1BB6 /* Build configuration list for PBXNativeTarget "skinTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				86C2479A1B1C5DD000BE1BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
